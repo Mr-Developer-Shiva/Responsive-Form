@@ -6,10 +6,11 @@ const cpassword = document.querySelector('#cpassword');
 let success = true ;
     
 form.addEventListener('submit',(e)=>{
-    alert("Welcome on great gikalam magic show...")
-    if(!validateInputs()){
-        alert("Thank For Comming.....<br> Goto Studie. hehehe " + username);
+    
+    if(!validateInputs()){ 
+        alert("Welcome on great Gherikaalen Magic Show...");
         e.preventDefault();
+        alert("Thank For Comming.....<br> Goto Studie. hehehe ");
     }
 })
 function validateInputs(){
