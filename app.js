@@ -1,3 +1,4 @@
+alert("Welcome I'm .....SHIVA.....");
 const form = document.querySelector('.form');
 const username = document.querySelector('#username');
 const email = document.querySelector('#email');
@@ -6,11 +7,11 @@ const cpassword = document.querySelector('#cpassword');
 let success = true ;
     
 form.addEventListener('submit',(e)=>{ 
+   
     if(!validateInputs()){ 
-        alert("Thank For Comming.....\n Goto Studie. hehehe ");
         e.preventDefault();    
     }
-    alert("Welcome on great Gherikaalen Magic Show...");
+    alert("Thank For Comming.....\n Goto Studie. hehehe ");
 })
 
 function validateInputs(){
