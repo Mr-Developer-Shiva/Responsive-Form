@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
   
     if(!validateInputs()){
         e.preventDefault();
-        alert("Welcome to my page " +username);
+        alert("Nee Thirunthavay Maatiyaa....!");
     }
 })
 function validateInputs(){
