@@ -9,11 +9,11 @@ form.addEventListener('submit',(e)=>{
     
     if(!validateInputs()){ 
         alert("Welcome on great Gherikaalen Magic Show...");
-        e.preventDefault();
-        
+        e.preventDefault();    
     }
+    alert("Thank For Comming.....<br> Goto Studie. hehehe ");
 })
-alert("Thank For Comming.....<br> Goto Studie. hehehe ");
+
 function validateInputs(){
     const usernameVal = username.value.trim();
     const emailVal = email.value.trim();
