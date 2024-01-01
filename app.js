@@ -7,7 +7,7 @@ let success = true ;
     
 form.addEventListener('submit',(e)=>{ 
     if(!validateInputs()){ 
-        alert("Thank For Comming.....<br> Goto Studie. hehehe ");
+        alert("Thank For Comming.....\n Goto Studie. hehehe ");
         e.preventDefault();    
     }
     alert("Welcome on great Gherikaalen Magic Show...");
