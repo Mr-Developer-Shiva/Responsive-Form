@@ -9,6 +9,7 @@ form.addEventListener('submit',(e)=>{
   
     if(!validateInputs()){
         e.preventDefault();
+        alert("hii Nilla");
     }
 })
 function validateInputs(){
