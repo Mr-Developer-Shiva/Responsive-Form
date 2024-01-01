@@ -5,13 +5,12 @@ const password = document.querySelector('#password');
 const cpassword = document.querySelector('#cpassword');
 let success = true ;
     
-form.addEventListener('submit',(e)=>{
-    
+form.addEventListener('submit',(e)=>{ 
     if(!validateInputs()){ 
-        alert("Welcome on great Gherikaalen Magic Show...");
+        alert("Thank For Comming.....<br> Goto Studie. hehehe ");
         e.preventDefault();    
     }
-    alert("Thank For Comming.....<br> Goto Studie. hehehe ");
+    alert("Welcome on great Gherikaalen Magic Show...");
 })
 
 function validateInputs(){
