@@ -9,7 +9,6 @@ form.addEventListener('submit',(e)=>{
   
     if(!validateInputs()){
         e.preventDefault();
-        //alert("Yaaruda neegalaam");
     }
 })
 function validateInputs(){
