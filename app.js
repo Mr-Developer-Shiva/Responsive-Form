@@ -8,8 +8,8 @@ let success = true ;
 form.addEventListener('submit',(e)=>{
   
     if(!validateInputs()){
-        e.preventDefault();
         alert("Thank For Comming.....<br> Goto Studie. hehehe");
+        e.preventDefault();
     }
 })
 function validateInputs(){
