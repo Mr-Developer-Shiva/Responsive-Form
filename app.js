@@ -4,8 +4,9 @@ const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 const cpassword = document.querySelector('#cpassword');
 let success = true ;
-    alert("Welcome on great gikalam magic show...")
+    
 form.addEventListener('submit',(e)=>{
+    alert("Welcome on great gikalam magic show...")
     if(!validateInputs()){
         alert("Thank For Comming.....<br> Goto Studie. hehehe " + username);
         e.preventDefault();
