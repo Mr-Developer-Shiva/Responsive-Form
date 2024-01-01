@@ -8,7 +8,8 @@ let success = true ;
 form.addEventListener('submit',(e)=>{
   
     if(!validateInputs()){
-        e.preventDefault()
+        e.preventDefault();
+        alert("Yaaruda neegalaam");
     }
 })
 function validateInputs(){
